@@ -3,7 +3,7 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'taxigo-app',
+    modulePrefix: 'ember-modular-admin',
     environment,
     rootURL: '/',
     locationType: 'auto',

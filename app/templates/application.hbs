@@ -1,5 +1,11 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<div class="main-wrapper">
+    <div class="app header-fixed sidebar-fixed" id="app">
 
-{{outlet}}
+        {{site-header}}
+
+        {{site-sidebar-left}}
+
+        {{outlet}}
+
+    </div>
+</div>
